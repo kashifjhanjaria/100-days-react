@@ -1,0 +1,66 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html , body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.267);
+  color: white;
+}
+.container{
+  width: 80%;
+  height: 80%;
+  
+}
+.wrapper{
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#root{
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cricle{
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px ;
+}
+.line{
+  width: 80px;
+  height: 1px ;
+  background-color: gray;
+
+}
+.button{
+  display: flex;
+  gap: 20px;
+}
+.button > button{
+  all: unset;
+  padding: 10px 20px;
+  background-color: blue;
+  border-radius: 10px;
+  cursor: pointer;
+}
